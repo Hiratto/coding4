@@ -68,6 +68,7 @@ p {
 
 figure {
   margin-left: 0;
+  margin-right: 0;
 }
 
 img {
@@ -338,5 +339,30 @@ a {
   }
   .hero .btn {
     margin-top: 43px;
+  }
+}
+
+/* メッセージ（トップ） */
+
+.msgtop {
+  margin-bottom: 74px;
+  padding: 110px 20px;
+  background-image: url(img/plan.jpg);
+}
+
+@media (min-width: 768px) {
+  .msgtop {
+    max-width: 1088px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 110px;
+    padding-right: 56px;
+    box-sizing: border-box;
+  }
+  .msgtop h2,.msgtop p {
+    max-width: 515px;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: left;
   }
 }
